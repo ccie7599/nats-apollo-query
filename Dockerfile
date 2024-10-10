@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expose the port the app runs on.
-EXPOSE 8443
+EXPOSE 8445
 
 # Run the web service on container startup.
 CMD [ "node", "server.js" ]
